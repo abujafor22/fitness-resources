@@ -1,0 +1,125 @@
+.Bannar{
+    align-items: center;
+    justify-content: space-between;
+}
+.bannar-info{
+    max-width: 50%;
+}
+.bannar-info h1{
+    font-size: 5rem;
+    color: #FFFFFF;
+    font-weight: 900;
+    margin-bottom: 28px;
+    max-width:520px;
+}
+.bannar-info p{
+    color: #FFFFFF;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 24px;
+    max-width:520px;
+    margin-bottom: 28px;
+}
+.btn-1{
+    margin-right: 14px;
+}
+.btn-2{
+    background-color: transparent;
+    border: 1px solid white;
+}
+.bannar-img{
+  max-width: 50%;
+  position: relative;
+}
+.bannar-img img{
+    max-width: 100%;
+}
+.bannar-exp{
+    background-color:rgba(255, 255, 255, 0.1);
+    height: 98px;
+    width: 193px;
+    border-radius: 12px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    position: absolute;
+    right: -72px;
+    top: 140px;
+}
+.bannar-exp-2{
+    background-color:rgba(255, 255, 255, 0.1);
+    height: 98px;
+    width: 193px;
+    border-radius: 12px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    position: absolute;
+    bottom: 70px;
+    left: -100px;
+}
+.ball{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: #E6533C;
+    position: absolute;
+    left: 6px;
+    top: 18px;
+}
+.bannar-exp h6{
+    font-size: 2.5rem;
+    color: #FFFFFF;
+    font-weight: 900;
+}
+.bannar-exp p{
+    font-size: 1rem;
+    color: #FFFFFF;
+    font-weight: 400;
+}
+.bannar-exp-2 h6{
+    font-size: 2.5rem;
+    color: #FFFFFF;
+    font-weight: 900;
+}
+.bannar-exp-2 p{
+    font-size: 1rem;
+    color: #FFFFFF;
+    font-weight: 400;
+}
+
+
+@media screen and (max-width:576px) {
+    .Bannar{
+    flex-direction: column;
+}
+.bannar-info{
+    max-width: 100%;
+   text-align: center;
+   padding-top: 50px;
+}
+.bannar-info h1{
+    font-size: 3rem;
+}
+.btn-1{
+    margin-bottom: 20px;
+}
+.bannar-img{
+  max-width: 100%;
+  padding-top: 50px;
+}
+.bannar-exp{
+    right: 32px;
+    top: 207px;
+}
+.bannar-exp-2{
+    bottom: 70px;
+    left: 0;
+}
+}
