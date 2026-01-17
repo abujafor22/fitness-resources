@@ -1,0 +1,75 @@
+.habits{
+    margin-top: 100px;
+}
+.habits-tittel{
+    text-align: center;
+    width: 671px;
+    margin: 0 auto;
+}
+.habits-tittel h1{
+    font-size: 3rem;
+    font-weight: 900;
+    color: #FFFFFF;
+    margin-bottom:14px;
+}
+.habits-tittel p{
+    font-size: 1rem;
+    color: #FFFFFF;
+    font-weight: 400;
+    margin-bottom: 58px;
+}
+.habits-items{
+ display: grid;
+ grid-template-columns: repeat(4, 1fr);
+ align-items: center;
+ justify-content: center;
+}
+.habits-card{
+    max-width: 231px;
+    height: 274px;
+    text-align: center;
+    position: relative;
+}
+.habits-card img{
+    max-width: 100%;
+    border-radius: 50%;
+}
+.img-bg{
+    height: 189px;
+    max-width: 189px;
+    background-color: grey;
+    position: absolute;
+    top: -5px;
+    left: 21px;
+    z-index: -1;
+    border-radius: 50%;
+}
+.habits-card h2{
+    font-size: 1.2rem;
+    color: #FFFFFF;
+    font-weight: 600;
+    padding-top: 20px;
+}
+.habits-card p{
+   font-size: 0.7rem;
+   color: #FFFFFF;
+   padding-top: 6px;
+}
+@media screen and (max-width:576px) {
+    .habits-items{
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+
+}
+.habits-tittel{
+    max-width: 100%;
+}
+
+.habits-card{
+   max-width: 100%;
+   border: 1px solid white;
+}
+.img-bg{
+    max-width: 100%;
+}
+}
