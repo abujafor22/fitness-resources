@@ -2,10 +2,13 @@
     align-items: center;
     justify-content: space-between;
     margin-top: 102px;
+    background-color: rgba(34, 34, 34, 1);
+    border-radius: 18px;
 }
 .run-info{
     max-width: 443px;
     height: 289px;
+    padding: 40px 54px;
 }
 .run-info h1{
     font-size: 3rem;
@@ -32,8 +35,8 @@
  max-width: 50%;
 }
 .run-img img{
-    max-width: 100%;
-    border-radius: 18px;
+    max-width: 95%;
+    padding: 20px 10px;
 }
 @media screen and (max-width:576px) {
     .run{
@@ -42,7 +45,7 @@
 .run-info{
     max-width: 100%;
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 90px;
 }
 .run-img{
  max-width: 100%;
